@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.Tema4 = new System.Windows.Forms.GroupBox();
-            this.Tema5 = new System.Windows.Forms.GroupBox();
-            this.Ejercicio4 = new System.Windows.Forms.Button();
             this.Ejercicio13 = new System.Windows.Forms.Button();
+            this.Ejercicio4 = new System.Windows.Forms.Button();
+            this.Tema5 = new System.Windows.Forms.GroupBox();
             this.Ejercicio2 = new System.Windows.Forms.Button();
             this.Ejercicio3 = new System.Windows.Forms.Button();
             this.Tema4.SuspendLayout();
@@ -49,6 +49,28 @@
             this.Tema4.TabStop = false;
             this.Tema4.Text = "Tema 4";
             // 
+            // Ejercicio13
+            // 
+            this.Ejercicio13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ejercicio13.Location = new System.Drawing.Point(200, 32);
+            this.Ejercicio13.Name = "Ejercicio13";
+            this.Ejercicio13.Size = new System.Drawing.Size(119, 57);
+            this.Ejercicio13.TabIndex = 1;
+            this.Ejercicio13.Text = "Ejercicio 13 ";
+            this.Ejercicio13.UseVisualStyleBackColor = true;
+            this.Ejercicio13.Click += new System.EventHandler(this.Ejercicio13_Click);
+            // 
+            // Ejercicio4
+            // 
+            this.Ejercicio4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ejercicio4.Location = new System.Drawing.Point(23, 32);
+            this.Ejercicio4.Name = "Ejercicio4";
+            this.Ejercicio4.Size = new System.Drawing.Size(110, 57);
+            this.Ejercicio4.TabIndex = 0;
+            this.Ejercicio4.Text = "Ejercicio 4 ";
+            this.Ejercicio4.UseVisualStyleBackColor = true;
+            this.Ejercicio4.Click += new System.EventHandler(this.Ejercicio4_Click);
+            // 
             // Tema5
             // 
             this.Tema5.Controls.Add(this.Ejercicio2);
@@ -60,26 +82,6 @@
             this.Tema5.TabStop = false;
             this.Tema5.Text = "Tema 5";
             // 
-            // Ejercicio4
-            // 
-            this.Ejercicio4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ejercicio4.Location = new System.Drawing.Point(23, 32);
-            this.Ejercicio4.Name = "Ejercicio4";
-            this.Ejercicio4.Size = new System.Drawing.Size(110, 57);
-            this.Ejercicio4.TabIndex = 0;
-            this.Ejercicio4.Text = "Ejercicio 4 ";
-            this.Ejercicio4.UseVisualStyleBackColor = true;
-            // 
-            // Ejercicio13
-            // 
-            this.Ejercicio13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ejercicio13.Location = new System.Drawing.Point(200, 32);
-            this.Ejercicio13.Name = "Ejercicio13";
-            this.Ejercicio13.Size = new System.Drawing.Size(119, 57);
-            this.Ejercicio13.TabIndex = 1;
-            this.Ejercicio13.Text = "Ejercicio 13 ";
-            this.Ejercicio13.UseVisualStyleBackColor = true;
-            // 
             // Ejercicio2
             // 
             this.Ejercicio2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -89,6 +91,7 @@
             this.Ejercicio2.TabIndex = 3;
             this.Ejercicio2.Text = "Ejercicio 2";
             this.Ejercicio2.UseVisualStyleBackColor = true;
+            this.Ejercicio2.Click += new System.EventHandler(this.Ejercicio2_Click);
             // 
             // Ejercicio3
             // 
@@ -99,6 +102,7 @@
             this.Ejercicio3.TabIndex = 2;
             this.Ejercicio3.Text = "Ejercicio 3";
             this.Ejercicio3.UseVisualStyleBackColor = true;
+            this.Ejercicio3.Click += new System.EventHandler(this.Ejercicio3_Click);
             // 
             // NavajaSuiza
             // 

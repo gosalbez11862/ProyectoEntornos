@@ -16,5 +16,27 @@ namespace NavajaSuiza
         {
             InitializeComponent();
         }
+
+        private void Ejercicio4_Click(object sender, EventArgs e)
+        {
+            Tema4.Ejercicio4.Convertir_PTS_Euros oFormulario1 = new Tema4.Ejercicio4.Convertir_PTS_Euros();
+            oFormulario1.ShowDialog();
+        }
+
+        private void Ejercicio13_Click(object sender, EventArgs e)
+        {
+            Tema4.Ejercicio13.Ejercicio13 oFormulario2 = new Tema4.Ejercicio13.Ejercicio13();
+            oFormulario2.ShowDialog();
+        }
+
+        private void Ejercicio2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Ejercicio3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

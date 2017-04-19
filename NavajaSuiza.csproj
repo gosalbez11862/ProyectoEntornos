@@ -54,6 +54,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tema4\Ejercicio13\Ejercicio13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tema4\Ejercicio13\Ejercicio13.Designer.cs">
+      <DependentUpon>Ejercicio13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tema4\Ejercicio4\Convertir_PTS_Euros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tema4\Ejercicio4\Convertir_PTS_Euros.Designer.cs">
+      <DependentUpon>Convertir_PTS_Euros.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tema4\InputBox.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +81,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Tema4\Ejercicio13\Ejercicio13.resx">
+      <DependentUpon>Ejercicio13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tema4\Ejercicio4\Convertir_PTS_Euros.resx">
+      <DependentUpon>Convertir_PTS_Euros.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -83,8 +101,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Tema4\Ejercicio13\" />
-    <Folder Include="Tema4\Ejercicio4\" />
     <Folder Include="Tema5\Ejercicio2\" />
     <Folder Include="Tema5\Ejercicio3\" />
   </ItemGroup>
