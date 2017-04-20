@@ -31,12 +31,14 @@ namespace NavajaSuiza
 
         private void Ejercicio2_Click(object sender, EventArgs e)
         {
-
+            Tema5.Ejercicio2.LecturaNumerosVector oFormulario3 = new Tema5.Ejercicio2.LecturaNumerosVector();
+            oFormulario3.ShowDialog();
         }
 
         private void Ejercicio3_Click(object sender, EventArgs e)
         {
-
+            Tema5.Ejercicio3.NumeroVectorMenor oFormulario4 = new Tema5.Ejercicio3.NumeroVectorMenor();
+            oFormulario4.ShowDialog();
         }
     }
 }

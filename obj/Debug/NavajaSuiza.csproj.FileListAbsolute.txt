@@ -10,3 +10,5 @@ C:\Users\Carlos\Desktop\Mis Cosas\DAW\Entornos de Desarrollo\3evaluacion\Proyect
 C:\Users\Carlos\Desktop\Mis Cosas\DAW\Entornos de Desarrollo\3evaluacion\Proyecto_NavajaSuiza\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.exe
 C:\Users\Carlos\Desktop\Mis Cosas\DAW\Entornos de Desarrollo\3evaluacion\Proyecto_NavajaSuiza\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.pdb
 C:\Users\Carlos\Desktop\Mis Cosas\DAW\Entornos de Desarrollo\3evaluacion\Proyecto_NavajaSuiza\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Tema4.Ejercicio13.Ejercicio13.resources
+C:\Users\Carlos\Desktop\Mis Cosas\DAW\Entornos de Desarrollo\3evaluacion\Proyecto_NavajaSuiza\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Tema5.Ejercicio2.LecturaNumerosVector.resources
+C:\Users\Carlos\Desktop\Mis Cosas\DAW\Entornos de Desarrollo\3evaluacion\Proyecto_NavajaSuiza\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Tema5.Ejercicio3.NumeroVectorMenor.resources
