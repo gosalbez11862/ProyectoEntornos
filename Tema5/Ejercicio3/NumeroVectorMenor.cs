@@ -16,26 +16,38 @@ namespace NavajaSuiza.Tema5.Ejercicio3
         {
             InitializeComponent();
         }
-        private static string InputBox(string texto)
-        {
-            InputBoxDialog ib = new InputBoxDialog();
-            ib.FormPrompt = texto;
-            ib.DefaultValue = "";
-            ib.ShowDialog();
-            string s = ib.InputResponse;
-            ib.Close();
-            return s;
-        }
 
         const int KTam = 10;
         int[] vector = new int[KTam];
 
         void FLeerVector(int[] vector)
         {
-            int i;
-            for (i = 0; i < vector.Length; i++)
+            bool bNumeroCorrecto;
+            int numero, posicion, RNumero;
+
+            posicion = 0;
+            RNumero = 0;
+
+            bNumeroCorrecto = int.TryParse(TNumero.Text, out numero);
+
+            if (bNumeroCorrecto)
             {
-                vector[i] = int.Parse(InputBox("Introduzca el numero: " + i));
+                if (posicion < vector.Length)
+                {
+                    vector[posicion] = numero;
+                    TNumero.Text = "";
+                    posicion++;
+                }
+                else
+                {
+                    MessageBox.Show("Vector lleno");
+                }
+
+                LResultado.Text = numero.ToString();
+            }
+            else
+            {
+                MessageBox.Show("¡Error! Debe Introducir un Numero");
             }
         }
 
@@ -67,7 +79,7 @@ namespace NavajaSuiza.Tema5.Ejercicio3
             int menor;
 
             menor = FMenorVector(vector);
-            MessageBox.Show(menor.ToString());
+            LResultado.Text = menor.ToString();
         }
     }
 }

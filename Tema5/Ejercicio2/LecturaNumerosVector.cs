@@ -19,13 +19,30 @@ namespace NavajaSuiza.Tema5.Ejercicio2
         const int KTam = 10;
         int[] vector = new int[KTam];
 
-        void FLeerVector (int numero)
+        void FLeerVector (int[] vector)
         {
-            int i;
+            bool bNumeroCorrecto;
+            int numero, posicion;
+            posicion = 0;
 
-            for (i = 0; i < vector.Length; i++)
+            bNumeroCorrecto = int.TryParse(TNumeros.Text, out numero);
+
+            if (bNumeroCorrecto)
             {
-                vector[i] = numero;
+                if (posicion < vector.Length)
+                {
+                    vector[posicion] = numero;
+                    TNumeros.Text = "";
+                    posicion++;
+                }
+                else
+                {
+                    MessageBox.Show("Vector lleno");
+                }
+            }
+            else
+            {
+                MessageBox.Show("¡Error! Debe Introducir un Numero");
             }
         }
 
@@ -45,24 +62,7 @@ namespace NavajaSuiza.Tema5.Ejercicio2
 
         private void BInsertar_Click(object sender, EventArgs e)
         {
-            bool CNumero = false;
-            int Numero, i;
-
-            CNumero = int.TryParse(TNumeros.Text, out Numero);
-
-            if (CNumero == true)
-            {
-                for (i = 0; i < vector.Length; i++)
-                {
-                    vector[i] = Numero;
-                }
-                TNumeros.Text = "";
-            }
-            else
-            {
-                MessageBox.Show("Introducir un numero entero");
-                TNumeros.Text = "";
-            }
+            FLeerVector(vector);
         }
 
         private void BMostrar_Click(object sender, EventArgs e)
