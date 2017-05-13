@@ -38,6 +38,7 @@
             // 
             // BCalcular
             // 
+            this.BCalcular.Enabled = false;
             this.BCalcular.Location = new System.Drawing.Point(170, 138);
             this.BCalcular.Name = "BCalcular";
             this.BCalcular.Size = new System.Drawing.Size(100, 36);
@@ -70,6 +71,7 @@
             this.TBase.Name = "TBase";
             this.TBase.Size = new System.Drawing.Size(100, 29);
             this.TBase.TabIndex = 3;
+            this.TBase.TextChanged += new System.EventHandler(this.TBase_TextChanged);
             // 
             // TExponente
             // 
@@ -77,6 +79,7 @@
             this.TExponente.Name = "TExponente";
             this.TExponente.Size = new System.Drawing.Size(100, 29);
             this.TExponente.TabIndex = 4;
+            this.TExponente.TextChanged += new System.EventHandler(this.TBase_TextChanged);
             // 
             // LResultado
             // 

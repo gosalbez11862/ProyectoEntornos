@@ -72,5 +72,21 @@ namespace NavajaSuiza.Tema4.Ejercicio4
             }
             TPesetas.Text = "";
         }
+
+        private void ComprobarTextBox(object sender, EventArgs e)
+        {
+            double Euros,Pesetas;
+
+            if (double.TryParse(TEuros.Text, out Euros) || double.TryParse(TPesetas.Text, out Pesetas))
+            {
+                BPesetas.Enabled = true;
+                BEuros.Enabled = true;
+            }
+            else
+            {
+                BPesetas.Enabled = false;
+                BEuros.Enabled = false;
+            }
+        }
     }
 }

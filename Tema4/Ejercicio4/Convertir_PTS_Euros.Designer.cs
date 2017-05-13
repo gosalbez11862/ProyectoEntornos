@@ -38,6 +38,7 @@
             // 
             // BEuros
             // 
+            this.BEuros.Enabled = false;
             this.BEuros.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BEuros.Location = new System.Drawing.Point(167, 138);
             this.BEuros.Name = "BEuros";
@@ -65,6 +66,7 @@
             this.TPesetas.Name = "TPesetas";
             this.TPesetas.Size = new System.Drawing.Size(102, 29);
             this.TPesetas.TabIndex = 2;
+            this.TPesetas.TextChanged += new System.EventHandler(this.ComprobarTextBox);
             // 
             // TEuros
             // 
@@ -74,6 +76,7 @@
             this.TEuros.Name = "TEuros";
             this.TEuros.Size = new System.Drawing.Size(102, 29);
             this.TEuros.TabIndex = 4;
+            this.TEuros.TextChanged += new System.EventHandler(this.ComprobarTextBox);
             // 
             // label1
             // 
@@ -87,6 +90,7 @@
             // 
             // BPesetas
             // 
+            this.BPesetas.Enabled = false;
             this.BPesetas.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BPesetas.Location = new System.Drawing.Point(25, 138);
             this.BPesetas.Name = "BPesetas";

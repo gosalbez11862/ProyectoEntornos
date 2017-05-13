@@ -46,5 +46,19 @@ namespace NavajaSuiza.Tema4.Ejercicio13
             else
                 MessageBox.Show("Introducir un numero");
         }
+
+        private void TBase_TextChanged(object sender, EventArgs e)
+        {
+            int Exponente, Base;
+
+            if (int.TryParse(TExponente.Text, out Exponente) && int.TryParse(TBase.Text, out Base))
+            {
+                BCalcular.Enabled = true;
+            }
+            else
+            {
+                BCalcular.Enabled = false;
+            }
+        }
     }
 }

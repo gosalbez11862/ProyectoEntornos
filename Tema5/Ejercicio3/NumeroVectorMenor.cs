@@ -83,5 +83,20 @@ namespace NavajaSuiza.Tema5.Ejercicio3
             menor = FMenorVector(vector);
             LResultado.Text = menor.ToString();
         }
+
+        private void ComprobarTextBox(object sender, EventArgs e)
+        {
+            int Numero;
+
+            if (int.TryParse(TNumero.Text, out Numero))
+            {
+                BLeer.Enabled = true;
+            }
+            else
+            {
+                BLeer.Enabled = false;
+
+            }
+        }
     }
 }

@@ -87,5 +87,20 @@ namespace NavajaSuiza.Tema5.Ejercicio2
         {
 
         }
+
+        private void ComprobarTextBox(object sender, EventArgs e)
+        {
+            int Numero;
+
+            if (int.TryParse(TNumeros.Text, out Numero))
+            {
+                BInsertar.Enabled = true;
+            }
+            else
+            {
+                BInsertar.Enabled = false;
+
+            }
+        }
     }
 }

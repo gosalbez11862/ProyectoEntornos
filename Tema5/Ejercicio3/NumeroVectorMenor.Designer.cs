@@ -36,12 +36,13 @@
             // 
             // BLeer
             // 
+            this.BLeer.Enabled = false;
             this.BLeer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BLeer.Location = new System.Drawing.Point(47, 24);
             this.BLeer.Name = "BLeer";
             this.BLeer.Size = new System.Drawing.Size(127, 42);
             this.BLeer.TabIndex = 0;
-            this.BLeer.Text = "Leer";
+            this.BLeer.Text = "Insertar";
             this.BLeer.UseVisualStyleBackColor = true;
             this.BLeer.Click += new System.EventHandler(this.BLeer_Click);
             // 
@@ -64,6 +65,7 @@
             this.TNumero.Size = new System.Drawing.Size(127, 29);
             this.TNumero.TabIndex = 2;
             this.TNumero.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TNumero.TextChanged += new System.EventHandler(this.ComprobarTextBox);
             // 
             // LResultado
             // 
