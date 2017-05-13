@@ -108,6 +108,7 @@
             this.Controls.Add(this.label1);
             this.Name = "LecturaNumerosVector";
             this.Text = "Ejercicio 2";
+            this.Load += new System.EventHandler(this.LecturaNumerosVector_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

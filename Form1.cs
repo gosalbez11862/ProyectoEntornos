@@ -10,8 +10,14 @@ using System.Windows.Forms;
 
 namespace NavajaSuiza
 {
+    /// <summary>
+    /// Union de 4 ejercicios para conformar un proyecto de entornos
+    /// </summary>
     public partial class NavajaSuiza : Form
     {
+        /// <summary>
+        /// 
+        /// </summary>
         public NavajaSuiza()
         {
             InitializeComponent();

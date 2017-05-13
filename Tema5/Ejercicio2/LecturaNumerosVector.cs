@@ -12,18 +12,23 @@ namespace NavajaSuiza.Tema5.Ejercicio2
 {
     public partial class LecturaNumerosVector : Form
     {
+        /// <summary>
+        /// Lee los numeros que introducimos en el vector,
+        /// calcula la media despues de a ver llenado el vector 
+        /// y por ultimo paso nos mostrara la media del mismo.
+        /// </summary>
         public LecturaNumerosVector()
         {
             InitializeComponent();
         }
         const int KTam = 10;
+        int posicion = 0;
         int[] vector = new int[KTam];
 
         void FLeerVector (int[] vector)
         {
             bool bNumeroCorrecto;
-            int numero, posicion;
-            posicion = 0;
+            int numero;
 
             bNumeroCorrecto = int.TryParse(TNumeros.Text, out numero);
 
@@ -74,6 +79,11 @@ namespace NavajaSuiza.Tema5.Ejercicio2
         }
 
         private void ActivarBoton(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LecturaNumerosVector_Load(object sender, EventArgs e)
         {
 
         }
