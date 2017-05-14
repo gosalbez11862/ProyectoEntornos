@@ -1,11 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// ***********************************************************************
+// Assembly         : NavajaSuiza
+// Author           : Carlos
+// Created          : 09-04-2017
+//
+// Last Modified By : Carlos
+// Last Modified On : 09-05-2017
+// ***********************************************************************
+// <copyright file="NavajaSuiza.cs">
+// </copyright>
+// <summary>Proyecto de Entornos</summary>
+// ***********************************************************************
+using System;
 using System.Windows.Forms;
 
 namespace NavajaSuiza
@@ -13,25 +18,25 @@ namespace NavajaSuiza
     /// <summary>
     /// Union de 4 ejercicios para conformar un proyecto de entornos
     /// </summary>
-    public partial class NavajaSuiza : Form
+    public partial class Form1 : Form
     {
         /// <summary>
         /// 
         /// </summary>
-        public NavajaSuiza()
+        public Form1()
         {
             InitializeComponent();
         }
 
         private void Ejercicio4_Click(object sender, EventArgs e)
         {
-            Tema4.Ejercicio4.Convertir_PTS_Euros oFormulario1 = new Tema4.Ejercicio4.Convertir_PTS_Euros();
+            Tema4.Ejercicio4.ConvertirPtsEuros oFormulario1 = new Tema4.Ejercicio4.ConvertirPtsEuros();
             oFormulario1.ShowDialog();
         }
 
         private void Ejercicio13_Click(object sender, EventArgs e)
         {
-            Tema4.Ejercicio13.Ejercicio13 oFormulario2 = new Tema4.Ejercicio13.Ejercicio13();
+            Tema4.Ejercicio13.CalcularBaseExponente oFormulario2 = new Tema4.Ejercicio13.CalcularBaseExponente();
             oFormulario2.ShowDialog();
         }
 

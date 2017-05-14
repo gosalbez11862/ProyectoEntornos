@@ -1,5 +1,9 @@
 ﻿namespace NavajaSuiza.Tema5.Ejercicio3
 {
+    /// <summary>
+    /// 	Introducir 10 numeros en un vector 
+    /// 	y leer todos ellos y sacar el menor de todos ellos
+    /// </summary>
     partial class NumeroVectorMenor
     {
         /// <summary>

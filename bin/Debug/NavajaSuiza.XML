@@ -4,28 +4,28 @@
         <name>NavajaSuiza</name>
     </assembly>
     <members>
-        <member name="T:NavajaSuiza.NavajaSuiza">
+        <member name="T:NavajaSuiza.Form1">
             <summary>
             Union de 4 ejercicios para conformar un proyecto de entornos
             </summary>
         </member>
-        <member name="M:NavajaSuiza.NavajaSuiza.#ctor">
+        <member name="M:NavajaSuiza.Form1.#ctor">
             <summary>
             
             </summary>
         </member>
-        <member name="F:NavajaSuiza.NavajaSuiza.components">
+        <member name="F:NavajaSuiza.Form1.components">
             <summary>
             Variable del diseñador necesaria.
             </summary>
         </member>
-        <member name="M:NavajaSuiza.NavajaSuiza.Dispose(System.Boolean)">
+        <member name="M:NavajaSuiza.Form1.Dispose(System.Boolean)">
             <summary>
             Limpiar los recursos que se estén usando.
             </summary>
             <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
         </member>
-        <member name="M:NavajaSuiza.NavajaSuiza.InitializeComponent">
+        <member name="M:NavajaSuiza.Form1.InitializeComponent">
             <summary>
             Método necesario para admitir el Diseñador. No se puede modificar
             el contenido de este método con el editor de código.
@@ -36,39 +36,150 @@
             Punto de entrada principal para la aplicación.
             </summary>
         </member>
-        <member name="F:NavajaSuiza.Tema4.Ejercicio13.Ejercicio13.components">
+        <member name="M:NavajaSuiza.Tema4.Ejercicio13.ClassBaseExponente.Potencia(System.Double,System.Double)">
+            <summary>
+            Funcion que calcula el exponente del numero,
+            </summary>
+            <param name="numero">Base del numero.</param>
+            <param name="exponente">Exponente del numero.</param>
+            <returns>el resultado de obtener el exponente del numero</returns>
+        </member>
+        <member name="T:NavajaSuiza.Tema4.Ejercicio13.CalcularBaseExponente">
+            <summary>
+            Ejercicio13 clacular de un numero con Base X
+            y con exponente X
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <summary>
+            	
+            </summary>
+        </member>
+        <member name="M:NavajaSuiza.Tema4.Ejercicio13.CalcularBaseExponente.#ctor">
+            <summary>
+            Inicializa una nueva instancia de la <see cref="T:NavajaSuiza.Tema4.Ejercicio13.CalcularBaseExponente"/> clase.	
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="M:NavajaSuiza.Tema4.Ejercicio13.CalcularBaseExponente.BCalcular_Click(System.Object,System.EventArgs)">
+            <summary>
+            Boton para calcular el resultado de
+            calcular la base con el exponente.
+            </summary>
+            <param name="sender">La fuente del evento.</param>
+            <param name="e">El <see cref="T:System.EventArgs"/> Ejemplo que contiene los datos del evento.</param>
+        </member>
+        <member name="M:NavajaSuiza.Tema4.Ejercicio13.CalcularBaseExponente.TBase_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Evento que controla la entrada de datos
+            y que solo sean numeros y no letras
+            </summary>
+            <param name="sender"></param>
+            <param name="e">El <see cref="T:System.EventArgs" /> Ejemplo que contiene los datos del evento.</param>
+        </member>
+        <member name="F:NavajaSuiza.Tema4.Ejercicio13.CalcularBaseExponente.components">
             <summary>
             Required designer variable.
             </summary>
         </member>
-        <member name="M:NavajaSuiza.Tema4.Ejercicio13.Ejercicio13.Dispose(System.Boolean)">
+        <member name="M:NavajaSuiza.Tema4.Ejercicio13.CalcularBaseExponente.Dispose(System.Boolean)">
             <summary>
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:NavajaSuiza.Tema4.Ejercicio13.Ejercicio13.InitializeComponent">
+        <member name="M:NavajaSuiza.Tema4.Ejercicio13.CalcularBaseExponente.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="F:NavajaSuiza.Tema4.Ejercicio4.Convertir_PTS_Euros.components">
+        <member name="T:NavajaSuiza.Tema4.Ejercicio4.ConvertirPtsEuros">
+            <summary>
+            programa para hacer el cambio de moneda de euros a pesetas y vicebersa
+            </summary>
+        </member>
+        <member name="M:NavajaSuiza.Tema4.Ejercicio4.ConvertirPtsEuros.#ctor">
+            <summary>
+            Inicializa una nueva instancia de la <see cref="T:NavajaSuiza.Tema4.Ejercicio4.ConvertirPtsEuros" /> clase.
+            </summary>
+        </member>
+        <member name="M:NavajaSuiza.Tema4.Ejercicio4.ConvertirPtsEuros.BPesetas_Click(System.Object,System.EventArgs)">
+            <summary>
+            Boton para covertir los euros a pesetas.
+            </summary>
+            <param name="sender">La fuente del evento.</param>
+            <param name="e">El <see cref="T:System.EventArgs"/> Ejemplo que contiene los datos del evento.</param>
+        </member>
+        <member name="M:NavajaSuiza.Tema4.Ejercicio4.ConvertirPtsEuros.BEuros_Click(System.Object,System.EventArgs)">
+            <summary>
+            Boton para covertir los pesetas a euros.
+            </summary>
+            <param name="sender">La fuente del evento.</param>
+            <param name="e">El <see cref="T:System.EventArgs"/> Ejemplo que contiene los datos del evento.</param>
+        </member>
+        <member name="M:NavajaSuiza.Tema4.Ejercicio4.ConvertirPtsEuros.ComprobarTextBox(System.Object,System.EventArgs)">
+            <summary>
+            Evento para comprobar los TextBox y que solo se 
+            itroduzcas numeros doubles y no letras ni caracteres extraños
+            </summary>
+            <param name="sender">La fuente del evento.</param>
+            <param name="e">El <see cref="T:System.EventArgs"/> Ejemplo que contiene los datos del evento.</param>
+        </member>
+        <member name="F:NavajaSuiza.Tema4.Ejercicio4.ConvertirPtsEuros.components">
             <summary>
             Required designer variable.
             </summary>
         </member>
-        <member name="M:NavajaSuiza.Tema4.Ejercicio4.Convertir_PTS_Euros.Dispose(System.Boolean)">
+        <member name="M:NavajaSuiza.Tema4.Ejercicio4.ConvertirPtsEuros.Dispose(System.Boolean)">
             <summary>
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:NavajaSuiza.Tema4.Ejercicio4.Convertir_PTS_Euros.InitializeComponent">
+        <member name="M:NavajaSuiza.Tema4.Ejercicio4.ConvertirPtsEuros.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
             </summary>
+        </member>
+        <member name="T:NavajaSuiza.Tema4.Ejercicio4.PtsEuros">
+            <summary>
+            Clase de ConvertirPtsEuros
+            </summary>
+        </member>
+        <member name="M:NavajaSuiza.Tema4.Ejercicio4.PtsEuros.FConversorpta(System.Double)">
+            <summary>
+            Obtiene el numero en pesetas que se 
+            quieren convertir en euros.
+            </summary>
+            <param name="num1">Pesetas.</param>
+            <returns>La conversion a Euros</returns>
+        </member>
+        <member name="M:NavajaSuiza.Tema4.Ejercicio4.PtsEuros.FConversoreu(System.Double)">
+            <summary>
+            Obtiene el numero en euros que se 
+            quieren convertir en pesetas.
+            </summary>
+            <param name="num2">Euros.</param>
+            <returns>La conversion a Pesetas</returns>
+        </member>
+        <member name="T:NavajaSuiza.Tema5.Ejercicio2.LecturaVector">
+            <summary>
+            calcula la media del vector
+            </summary>
+        </member>
+        <member name="F:NavajaSuiza.Tema5.Ejercicio2.LecturaVector.KTam">
+            <summary>
+            Constante que da el tope al vector
+            </summary>
+        </member>
+        <member name="M:NavajaSuiza.Tema5.Ejercicio2.LecturaVector.FMediaVector(System.Int32[])">
+            <summary>
+            Recorre el vector entero y devuelve
+            la media.
+            </summary>
+            <param name="vector">el vector.</param>
+            <returns>Devuelve la media del vector entero</returns>
         </member>
         <member name="M:NavajaSuiza.Tema5.Ejercicio2.LecturaNumerosVector.#ctor">
             <summary>
@@ -76,6 +187,48 @@
             calcula la media despues de a ver llenado el vector 
             y por ultimo paso nos mostrara la media del mismo.
             </summary>
+        </member>
+        <member name="F:NavajaSuiza.Tema5.Ejercicio2.LecturaNumerosVector.CLV">
+            <summary>
+            The CLV
+            </summary>
+        </member>
+        <member name="F:NavajaSuiza.Tema5.Ejercicio2.LecturaNumerosVector.KTam">
+            <summary>
+            The k tam
+            </summary>
+        </member>
+        <member name="F:NavajaSuiza.Tema5.Ejercicio2.LecturaNumerosVector.vector">
+            <summary>
+            The vector
+            </summary>
+        </member>
+        <member name="M:NavajaSuiza.Tema5.Ejercicio2.LecturaNumerosVector.FLeerVector(System.Int32[])">
+            <summary>
+            fs the leer vector.
+            </summary>
+            <param name="vector">The vector.</param>
+        </member>
+        <member name="M:NavajaSuiza.Tema5.Ejercicio2.LecturaNumerosVector.BInsertar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the BInsertar control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:NavajaSuiza.Tema5.Ejercicio2.LecturaNumerosVector.BMostrar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the BMostrar control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:NavajaSuiza.Tema5.Ejercicio2.LecturaNumerosVector.ComprobarTextBox(System.Object,System.EventArgs)">
+            <summary>
+            Comprobars the text box.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
         </member>
         <member name="F:NavajaSuiza.Tema5.Ejercicio2.LecturaNumerosVector.components">
             <summary>
@@ -92,6 +245,12 @@
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:NavajaSuiza.Tema5.Ejercicio3.NumeroVectorMenor">
+            <summary>
+            	Introducir 10 numeros en un vector 
+            	y leer todos ellos y sacar el menor de todos ellos
             </summary>
         </member>
         <member name="M:NavajaSuiza.Tema5.Ejercicio3.NumeroVectorMenor.#ctor">
@@ -133,9 +292,5 @@
               búsquedas de recursos usando esta clase de recursos fuertemente tipados.
             </summary>
         </member>
-        <!-- El comentario XML con formato incorrecto se ha omitido para el miembro "T:System.InputBoxDialog" -->
-        <!-- El comentario XML con formato incorrecto se ha omitido para el miembro "F:System.InputBoxDialog.components" -->
-        <!-- El comentario XML con formato incorrecto se ha omitido para el miembro "M:System.InputBoxDialog.Dispose(System.Boolean)" -->
-        <!-- El comentario XML con formato incorrecto se ha omitido para el miembro "M:System.InputBoxDialog.InitializeComponent" -->
     </members>
 </doc>

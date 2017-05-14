@@ -1,6 +1,9 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using System;
+
+[assembly: CLSCompliant(false)]
+
 
 // La información general de un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
@@ -8,9 +11,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("NavajaSuiza")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Hewlett-Packard")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("NavajaSuiza")]
-[assembly: AssemblyCopyright("Copyright © Hewlett-Packard 2017")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

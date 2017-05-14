@@ -1,7 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿// ***********************************************************************
+// Assembly         : NavajaSuiza
+// Author           : Carlos
+// Created          : 04-09-2017
+//
+// Last Modified By : Carlos
+// Last Modified On : 05-14-2017
+// ***********************************************************************
+// <copyright file="Program.cs">
+//
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
+using System;
 using System.Windows.Forms;
 
 namespace NavajaSuiza
@@ -16,7 +26,7 @@ namespace NavajaSuiza
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new NavajaSuiza());
+            Application.Run(new Form1());
         }
     }
 }

@@ -1,11 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// ***********************************************************************
+// Assembly         : NavajaSuiza
+// Author           : Carlos
+// Created          : 04-20-2017
+//
+// Last Modified By : Carlos
+// Last Modified On : 05-14-2017
+// ***********************************************************************
+// <copyright file="NumeroVectorMenor.cs">
+//
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
+using System;
 using System.Windows.Forms;
 
 namespace NavajaSuiza.Tema5.Ejercicio3
@@ -22,7 +28,7 @@ namespace NavajaSuiza.Tema5.Ejercicio3
         }
 
         const int KTam = 10;
-        int posicion = 0;
+        int posicion/* = 0*/;
         int[] vector = new int[KTam];
 
         void FLeerVector(int[] vector)
@@ -62,15 +68,15 @@ namespace NavajaSuiza.Tema5.Ejercicio3
         {
             int menor;
 
-            menor = CNumeroMenor.FMenorVector(vector);
+            menor = NumeroMenor.FMenorVector(vector);
             LResultado.Text = menor.ToString();
         }
 
         private void ComprobarTextBox(object sender, EventArgs e)
         {
-            int Numero;
+            int numero;
 
-            if (int.TryParse(TNumero.Text, out Numero))
+            if (int.TryParse(TNumero.Text, out numero))
             {
                 BLeer.Enabled = true;
             }

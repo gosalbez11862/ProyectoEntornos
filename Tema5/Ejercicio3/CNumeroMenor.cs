@@ -1,29 +1,37 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// ***********************************************************************
+// Assembly         : NavajaSuiza
+// Author           : Carlos
+// Created          : 05-14-2017
+//
+// Last Modified By : Carlos
+// Last Modified On : 05-14-2017
+// ***********************************************************************
+// <copyright file="CNumeroMenor.cs">
+//
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
 
 namespace NavajaSuiza.Tema5.Ejercicio3
 {
-    class CNumeroMenor
+    internal static class NumeroMenor
     {
         public static int FMenorVector(int[] vector)
         {
-            int Menor, Mayor, i;
-            Menor = 1;
+            int menor, mayor, i;
+            menor = 1;
             for (i = 0; i < vector.Length; i++)
             {
-                if (Menor > vector[i])
+                if (menor > vector[i])
                 {
-                    Menor = vector[i];
+                    menor = vector[i];
                 }
                 else
                 {
-                    Mayor = vector[i];
+                    mayor = vector[i];
                 }
             }
-            return Menor;
+            return menor;
         }
     }
 }

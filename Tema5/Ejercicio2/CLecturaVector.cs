@@ -1,26 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace NavajaSuiza.Tema5.Ejercicio2
 {
-    class CLecturaVector
+    /// <summary>
+    /// calcula la media del vector
+    /// </summary>
+    class LecturaVector
     {
+        /// <summary>
+        /// Constante que da el tope al vector
+        /// </summary>
+        const int KTam = 10;
 
+        /// <summary>
+        /// Recorre el vector entero y devuelve
+        /// la media.
+        /// </summary>
+        /// <param name="vector">el vector.</param>
+        /// <returns>Devuelve la media del vector entero</returns>
         public int FMediaVector(int[] vector)
         {
-            int Media, i;
-            Media = 0;
+            int media, i;
+            media = 0;
 
             for (i = 0; i < vector.Length; i++)
             {
-                Media = Media + vector[i];
+                media = media + vector[i];
             }
-            Media = Media / KTam;
+            media = media / KTam;
 
-            return Media;
+            return media;
         }
     }
 }

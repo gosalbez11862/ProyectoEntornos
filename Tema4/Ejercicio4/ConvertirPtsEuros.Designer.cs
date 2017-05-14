@@ -1,6 +1,6 @@
 ﻿namespace NavajaSuiza.Tema4.Ejercicio4
 {
-    partial class Convertir_PTS_Euros
+    partial class ConvertirPtsEuros
     {
         /// <summary>
         /// Required designer variable.
@@ -32,7 +32,7 @@
             this.LPesetas = new System.Windows.Forms.Label();
             this.TPesetas = new System.Windows.Forms.TextBox();
             this.TEuros = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.Euros = new System.Windows.Forms.Label();
             this.BPesetas = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -78,15 +78,15 @@
             this.TEuros.TabIndex = 4;
             this.TEuros.TextChanged += new System.EventHandler(this.ComprobarTextBox);
             // 
-            // label1
+            // Euros
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(42, 84);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 24);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Euros";
+            this.Euros.AutoSize = true;
+            this.Euros.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Euros.Location = new System.Drawing.Point(42, 84);
+            this.Euros.Name = "Euros";
+            this.Euros.Size = new System.Drawing.Size(60, 24);
+            this.Euros.TabIndex = 3;
+            this.Euros.Text = "Euros";
             // 
             // BPesetas
             // 
@@ -107,7 +107,7 @@
             this.ClientSize = new System.Drawing.Size(284, 215);
             this.Controls.Add(this.BPesetas);
             this.Controls.Add(this.TEuros);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Euros);
             this.Controls.Add(this.TPesetas);
             this.Controls.Add(this.LPesetas);
             this.Controls.Add(this.BEuros);
@@ -124,7 +124,7 @@
         private System.Windows.Forms.Label LPesetas;
         private System.Windows.Forms.TextBox TPesetas;
         private System.Windows.Forms.TextBox TEuros;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Euros;
         private System.Windows.Forms.Button BPesetas;
     }
 }

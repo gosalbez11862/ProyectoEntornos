@@ -1,6 +1,6 @@
 ﻿namespace NavajaSuiza
 {
-    partial class NavajaSuiza
+    partial class Form1
     {
         /// <summary>
         /// Variable del diseñador necesaria.

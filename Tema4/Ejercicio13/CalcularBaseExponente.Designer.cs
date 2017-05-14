@@ -1,6 +1,9 @@
 ﻿namespace NavajaSuiza.Tema4.Ejercicio13
 {
-    partial class Ejercicio13
+    /// <summary>
+    /// 	
+    /// </summary>
+    partial class CalcularBaseExponente
     {
         /// <summary>
         /// Required designer variable.
