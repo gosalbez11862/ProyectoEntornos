@@ -33,7 +33,7 @@
             this.BInsertar = new System.Windows.Forms.Button();
             this.BMostrar = new System.Windows.Forms.Button();
             this.LResultado = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.LMensaje = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -87,22 +87,22 @@
             this.LResultado.Size = new System.Drawing.Size(0, 24);
             this.LResultado.TabIndex = 4;
             // 
-            // label2
+            // LMensaje
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(62, 116);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(144, 24);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "El resultado es: ";
+            this.LMensaje.AutoSize = true;
+            this.LMensaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LMensaje.Location = new System.Drawing.Point(62, 116);
+            this.LMensaje.Name = "LMensaje";
+            this.LMensaje.Size = new System.Drawing.Size(144, 24);
+            this.LMensaje.TabIndex = 5;
+            this.LMensaje.Text = "El resultado es: ";
             // 
             // LecturaNumerosVector
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(347, 159);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.LMensaje);
             this.Controls.Add(this.LResultado);
             this.Controls.Add(this.BMostrar);
             this.Controls.Add(this.BInsertar);
@@ -123,6 +123,6 @@
         private System.Windows.Forms.Button BInsertar;
         private System.Windows.Forms.Button BMostrar;
         private System.Windows.Forms.Label LResultado;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label LMensaje;
     }
 }

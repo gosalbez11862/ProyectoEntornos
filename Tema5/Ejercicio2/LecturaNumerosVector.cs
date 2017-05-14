@@ -21,12 +21,16 @@ namespace NavajaSuiza.Tema5.Ejercicio2
         {
             InitializeComponent();
         }
+
+        CLecturaVector CLV = new CLecturaVector();
         const int KTam = 10;
-        int posicion = 0;
         int[] vector = new int[KTam];
 
-        void FLeerVector (int[] vector)
+        void FLeerVector(int[] vector)
         {
+            LecturaNumerosVector LNV = new LecturaNumerosVector();
+
+            int posicion = 0;
             bool bNumeroCorrecto;
             int numero;
 
@@ -42,27 +46,13 @@ namespace NavajaSuiza.Tema5.Ejercicio2
                 }
                 else
                 {
-                    MessageBox.Show("Vector lleno");
+                    LResultado.Text = "Vector lleno";
                 }
             }
             else
             {
-                MessageBox.Show("¡Error! Debe Introducir un Numero");
+                LMensaje.Text = "¡Error! Debe Introducir un Numero";
             }
-        }
-
-        int FMediaVector(int[] vector)
-        {
-            int Media, i;
-            Media = 0;
-
-            for (i = 0; i < vector.Length; i++)
-            {
-                Media = Media + vector[i];
-            }
-            Media = Media / KTam;
-
-            return Media;
         }
 
         private void BInsertar_Click(object sender, EventArgs e)
@@ -74,18 +64,8 @@ namespace NavajaSuiza.Tema5.Ejercicio2
         {
             int valor;
 
-            valor = FMediaVector(vector);
+            valor = CLV.FMediaVector(vector);
             LResultado.Text = valor.ToString();
-        }
-
-        private void ActivarBoton(object sender, EventArgs e)
-        {
-
-        }
-
-        private void LecturaNumerosVector_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void ComprobarTextBox(object sender, EventArgs e)
@@ -101,6 +81,16 @@ namespace NavajaSuiza.Tema5.Ejercicio2
                 BInsertar.Enabled = false;
 
             }
+        }
+
+        private void ActivarBoton(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LecturaNumerosVector_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

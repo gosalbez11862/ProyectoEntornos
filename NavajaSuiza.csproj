@@ -55,6 +55,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tema4\Ejercicio13\CBaseExponente.cs" />
     <Compile Include="Tema4\Ejercicio13\Ejercicio13.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,15 +68,15 @@
     <Compile Include="Tema4\Ejercicio4\Convertir_PTS_Euros.Designer.cs">
       <DependentUpon>Convertir_PTS_Euros.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tema4\InputBox.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Tema4\Ejercicio4\CPtsEuros.cs" />
+    <Compile Include="Tema5\Ejercicio2\CLecturaVector.cs" />
     <Compile Include="Tema5\Ejercicio2\LecturaNumerosVector.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Tema5\Ejercicio2\LecturaNumerosVector.Designer.cs">
       <DependentUpon>LecturaNumerosVector.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tema5\Ejercicio3\CNumeroMenor.cs" />
     <Compile Include="Tema5\Ejercicio3\NumeroVectorMenor.cs">
       <SubType>Form</SubType>
     </Compile>

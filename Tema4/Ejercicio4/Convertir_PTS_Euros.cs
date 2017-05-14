@@ -17,24 +17,6 @@ namespace NavajaSuiza.Tema4.Ejercicio4
             InitializeComponent();
         }
 
-        const double kconversor = 166.38;
-
-        double FConversorpta(double num1)
-        {
-            double valor;
-
-            valor = num1 * kconversor;
-            return valor;
-        }
-
-        double FConversoreu(double num2)
-        {
-            double valor;
-
-            valor = num2 / kconversor;
-            return valor;
-        }
-
         private void BPesetas_Click(object sender, EventArgs e)
         {
             double euro, resultado;
@@ -44,7 +26,7 @@ namespace NavajaSuiza.Tema4.Ejercicio4
 
             if (moneda == true)
             {
-                resultado = FConversorpta(euro);
+                resultado = CPtsEuros.FConversorpta(euro);
                 TPesetas.Text = resultado.ToString("2");
             }
             else
@@ -63,7 +45,7 @@ namespace NavajaSuiza.Tema4.Ejercicio4
 
             if (moneda == true)
             {
-                resultado = FConversoreu(pta);
+                resultado = CPtsEuros.FConversoreu(pta);
                 TEuros.Text = resultado.ToString("C2");
             }
             else

@@ -16,20 +16,11 @@ namespace NavajaSuiza.Tema4.Ejercicio13
         {
             InitializeComponent();
         }
-        double Potencia(double Numero, double Exponente)
-        {
-            double Resultado, i;
-            Resultado = 1;
-
-            for (i = 1; i <= Exponente; i++)
-            {
-                Resultado = Resultado * Numero;
-            }
-            return Resultado;
-        }
 
         private void BCalcular_Click(object sender, EventArgs e)
         {
+            CBaseExponente BaseExponente = new CBaseExponente();
+
             double Numero, Exponente, Resultado;
             bool CNumero, CExponente;
             CNumero = false;
@@ -40,7 +31,7 @@ namespace NavajaSuiza.Tema4.Ejercicio13
 
             if (CNumero == true && CExponente == true)
             {
-                Resultado = Potencia(Numero, Exponente);
+                Resultado =BaseExponente.Potencia(Numero, Exponente);
                 LResultado.Text = Resultado.ToString();
             }
             else

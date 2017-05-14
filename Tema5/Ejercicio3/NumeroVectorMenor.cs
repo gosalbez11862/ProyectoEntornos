@@ -53,24 +53,6 @@ namespace NavajaSuiza.Tema5.Ejercicio3
             }
         }
 
-        int FMenorVector(int[] vector)
-        {
-            int Menor, Mayor, i;
-            Menor = 1;
-            for (i = 0; i < vector.Length; i++)
-            {
-                if (Menor > vector[i])
-                {
-                    Menor = vector[i];
-                }
-                else
-                {
-                    Mayor = vector[i];
-                }
-            }
-            return Menor;
-        }
-
         private void BLeer_Click(object sender, EventArgs e)
         {
             FLeerVector(vector);
@@ -80,7 +62,7 @@ namespace NavajaSuiza.Tema5.Ejercicio3
         {
             int menor;
 
-            menor = FMenorVector(vector);
+            menor = CNumeroMenor.FMenorVector(vector);
             LResultado.Text = menor.ToString();
         }
 
