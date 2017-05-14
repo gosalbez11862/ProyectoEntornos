@@ -1,4 +1,17 @@
-﻿
+﻿// ***********************************************************************
+// Assembly         : NavajaSuiza
+// Author           : Carlos Gosalbez
+// Created          : 05-14-2017
+//
+// Last Modified By : 
+// Last Modified On : 05-14-2017
+// ***********************************************************************
+// <copyright file="CLecturaVector.cs" company="">
+//     . All rights reserved.
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
+
 namespace NavajaSuiza.Tema5.Ejercicio2
 {
     /// <summary>

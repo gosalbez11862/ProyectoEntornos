@@ -16,6 +16,12 @@ namespace NavajaSuiza.Tema5.Ejercicio3
 {
     internal static class NumeroMenor
     {
+        /// <summary>
+        /// Recorre el vector entero y devuelve
+        /// el menor del vector.
+        /// </summary>
+        /// <param name="vector">el vector.</param>
+        /// <returns>Devuelve el numero menor del vector</returns>
         public static int FMenorVector(int[] vector)
         {
             int menor, mayor, i;

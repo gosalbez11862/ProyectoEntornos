@@ -1,5 +1,10 @@
 ﻿namespace NavajaSuiza.Tema5.Ejercicio2
 {
+    /// <summary>
+    /// Lee los numeros que introducimos en el vector,
+    /// calcula la media despues de a ver llenado el vector 
+    /// y por ultimo paso nos mostrara la media del mismo.
+    /// </summary>
     partial class LecturaNumerosVector
     {
         /// <summary>

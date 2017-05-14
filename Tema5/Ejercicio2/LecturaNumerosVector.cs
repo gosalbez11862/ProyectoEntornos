@@ -1,11 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// ***********************************************************************
+// Assembly         : NavajaSuiza
+// Author           : Carlos Gosalbez
+// Created          : 04-20-2017
+//
+// Last Modified By : 
+// Last Modified On : 05-14-2017
+// ***********************************************************************
+// <copyright file="LecturaNumerosVector.cs" company="">
+//     . All rights reserved.
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
+using System;
 using System.Windows.Forms;
 
 namespace NavajaSuiza.Tema5.Ejercicio2
@@ -23,24 +29,25 @@ namespace NavajaSuiza.Tema5.Ejercicio2
         }
 
         /// <summary>
-        /// The CLV
+        /// Inicializamos la clase LecturaVector
         /// </summary>
         LecturaVector CLV = new LecturaVector();
 
         /// <summary>
-        /// The k tam
+        /// Constante para limitar el vector
         /// </summary>
         const int KTam = 10;
 
         /// <summary>
-        /// The vector
+        /// Inicializamos el vector con un tamaño determinado
         /// </summary>
         int[] vector = new int[KTam];
 
         /// <summary>
-        /// fs the leer vector.
+        /// Leemos el vector introduciendo los
+        /// numeros
         /// </summary>
-        /// <param name="vector">The vector.</param>
+        /// <param name="vector">Numeros que van en el vector.</param>
         void FLeerVector(int[] vector)
         {
             int posicion = 0;
@@ -69,20 +76,21 @@ namespace NavajaSuiza.Tema5.Ejercicio2
         }
 
         /// <summary>
-        /// Handles the Click event of the BInsertar control.
+        /// Cada vez que hacemos "click" introducimos un 
+        /// numero en el vector
         /// </summary>
-        /// <param name="sender">The source of the event.</param>
-        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
+        /// <param name="sender">La fuente del evento.</param>
+        /// <param name="e">El <see cref="EventArgs"/> instancia que contiene los datos del evento.</param>
         private void BInsertar_Click(object sender, EventArgs e)
         {
             FLeerVector(vector);
         }
 
         /// <summary>
-        /// Handles the Click event of the BMostrar control.
+        /// Boton para mostrar los numeros que estan en el vector.
         /// </summary>
-        /// <param name="sender">The source of the event.</param>
-        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
+        /// <param name="sender">La fuente del evento.</param>
+        /// <param name="e">The <see cref="EventArgs"/>instancia que contiene los datos del evento.</param>
         private void BMostrar_Click(object sender, EventArgs e)
         {
             int valor;
@@ -92,15 +100,16 @@ namespace NavajaSuiza.Tema5.Ejercicio2
         }
 
         /// <summary>
-        /// Comprobars the text box.
+        /// Comprobamos que lo que introducimos en el textbox son numeros
+        /// enteros y no dobles ni letras ni caracteres extraños.
         /// </summary>
-        /// <param name="sender">The sender.</param>
-        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
+        /// <param name="sender">El sender.</param>
+        /// <param name="e">El <see cref="EventArgs"/>instancia que contiene los datos del evento.</param>
         private void ComprobarTextBox(object sender, EventArgs e)
         {
-            int Numero;
+            int numero;
 
-            if (int.TryParse(TNumeros.Text, out Numero))
+            if (int.TryParse(TNumeros.Text, out numero))
             {
                 BInsertar.Enabled = true;
             }
