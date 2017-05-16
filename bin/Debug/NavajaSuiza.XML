@@ -6,13 +6,65 @@
     <members>
         <member name="T:NavajaSuiza.Form1">
             <summary>
-            Union de 4 ejercicios para conformar un proyecto de entornos
+            <para>Union de 4 ejercicios para conformar un proyecto de entornos</para>
+            <para>Los distintos ejercicios son:
+            <list type="bullet">
+                <item>
+                    <description>Tema 4 - Ejercicio 4</description>
+                    <description>Conversor de Moneda, pasar de Pesetas
+                    a euros y al reves.</description>
+                </item>
+                <item>
+                    <description>Tema 4 - Ejercicio 13</description>
+                    <description>calcular la base dada con el 
+                    exponente dado.</description>
+                </item>
+                <item>
+                    <description>Tema 5 - Ejercicio 2</description>
+                    <description>Lectura de 10 numeros en un vector
+                    y nos devuelve la media de todo el vector.</description>
+                </item>
+                <item>
+                    <description>Tema 5 - Ejercicio 3</description>
+                    <description>Lectura de 10 numeros en un vector
+                    y nos devuelve el numero menor de todos ellos.</description>
+                </item>
+            </list>
+            </para>
             </summary>
         </member>
         <member name="M:NavajaSuiza.Form1.#ctor">
             <summary>
-            
+            Initializes a new instance of the <see cref="T:NavajaSuiza.Form1"/> class.
             </summary>
+        </member>
+        <member name="M:NavajaSuiza.Form1.Ejercicio4_Click(System.Object,System.EventArgs)">
+            <summary>
+            Instanciamos el form <see cref="T:NavajaSuiza.Tema4.Ejercicio4.ConvertirPtsEuros"/> para poder abrirlo al pulsar el boton
+            </summary>
+            <param name="sender">La fuente del evento.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/>Instancia que contiene los datos del evento.</param>
+        </member>
+        <member name="M:NavajaSuiza.Form1.Ejercicio13_Click(System.Object,System.EventArgs)">
+            <summary>
+            Instanciamos el form <see cref="T:NavajaSuiza.Tema4.Ejercicio13.CalcularBaseExponente"/> para poder abrirlo al pulsar el boton
+            </summary>
+            <param name="sender">La fuente del evento.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/>Instancia que contiene los datos del evento.</param>
+        </member>
+        <member name="M:NavajaSuiza.Form1.Ejercicio2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Instanciamos el form <see cref="T:NavajaSuiza.Tema5.Ejercicio2.LecturaNumerosVector"/> para poder abrirlo al pulsar el boton
+            </summary>
+            <param name="sender">La fuente del evento.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/>Instancia que contiene los datos del evento.</param>
+        </member>
+        <member name="M:NavajaSuiza.Form1.Ejercicio3_Click(System.Object,System.EventArgs)">
+            <summary>
+            Instanciamos el form <see cref="T:NavajaSuiza.Tema5.Ejercicio3.NumeroVectorMenor"/> para poder abrirlo al pulsar el boton
+            </summary>
+            <param name="sender">La fuente del evento.</param>
+            <param name="e">El <see cref="T:System.EventArgs"/>Instancia que contiene los datos del evento.</param>
         </member>
         <member name="F:NavajaSuiza.Form1.components">
             <summary>
@@ -181,6 +233,13 @@
             <param name="vector">el vector.</param>
             <returns>Devuelve la media del vector entero</returns>
         </member>
+        <member name="T:NavajaSuiza.Tema5.Ejercicio2.LecturaNumerosVector">
+            <summary>
+            Lee los numeros que introducimos en el vector,
+            calcula la media despues de a ver llenado el vector 
+            y por ultimo paso nos mostrara la media del mismo.
+            </summary>
+        </member>
         <member name="M:NavajaSuiza.Tema5.Ejercicio2.LecturaNumerosVector.#ctor">
             <summary>
             Lee los numeros que introducimos en el vector,
@@ -190,45 +249,48 @@
         </member>
         <member name="F:NavajaSuiza.Tema5.Ejercicio2.LecturaNumerosVector.CLV">
             <summary>
-            The CLV
+            Inicializamos la clase LecturaVector
             </summary>
         </member>
         <member name="F:NavajaSuiza.Tema5.Ejercicio2.LecturaNumerosVector.KTam">
             <summary>
-            The k tam
+            Constante para limitar el vector
             </summary>
         </member>
         <member name="F:NavajaSuiza.Tema5.Ejercicio2.LecturaNumerosVector.vector">
             <summary>
-            The vector
+            Inicializamos el vector con un tamaño determinado
             </summary>
         </member>
         <member name="M:NavajaSuiza.Tema5.Ejercicio2.LecturaNumerosVector.FLeerVector(System.Int32[])">
             <summary>
-            fs the leer vector.
+            Leemos el vector introduciendo los
+            numeros
             </summary>
-            <param name="vector">The vector.</param>
+            <param name="vector">Numeros que van en el vector.</param>
         </member>
         <member name="M:NavajaSuiza.Tema5.Ejercicio2.LecturaNumerosVector.BInsertar_Click(System.Object,System.EventArgs)">
             <summary>
-            Handles the Click event of the BInsertar control.
+            Cada vez que hacemos "click" introducimos un 
+            numero en el vector
             </summary>
-            <param name="sender">The source of the event.</param>
-            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+            <param name="sender">La fuente del evento.</param>
+            <param name="e">El <see cref="T:System.EventArgs"/> instancia que contiene los datos del evento.</param>
         </member>
         <member name="M:NavajaSuiza.Tema5.Ejercicio2.LecturaNumerosVector.BMostrar_Click(System.Object,System.EventArgs)">
             <summary>
-            Handles the Click event of the BMostrar control.
+            Boton para mostrar los numeros que estan en el vector.
             </summary>
-            <param name="sender">The source of the event.</param>
-            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+            <param name="sender">La fuente del evento.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/>instancia que contiene los datos del evento.</param>
         </member>
         <member name="M:NavajaSuiza.Tema5.Ejercicio2.LecturaNumerosVector.ComprobarTextBox(System.Object,System.EventArgs)">
             <summary>
-            Comprobars the text box.
+            Comprobamos que lo que introducimos en el textbox son numeros
+            enteros y no dobles ni letras ni caracteres extraños.
             </summary>
-            <param name="sender">The sender.</param>
-            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+            <param name="sender">El sender.</param>
+            <param name="e">El <see cref="T:System.EventArgs"/>instancia que contiene los datos del evento.</param>
         </member>
         <member name="F:NavajaSuiza.Tema5.Ejercicio2.LecturaNumerosVector.components">
             <summary>
@@ -247,6 +309,14 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="M:NavajaSuiza.Tema5.Ejercicio3.NumeroMenor.FMenorVector(System.Int32[])">
+            <summary>
+            Recorre el vector entero y devuelve
+            el menor del vector.
+            </summary>
+            <param name="vector">el vector.</param>
+            <returns>Devuelve el numero menor del vector</returns>
+        </member>
         <member name="T:NavajaSuiza.Tema5.Ejercicio3.NumeroVectorMenor">
             <summary>
             	Introducir 10 numeros en un vector 
@@ -258,6 +328,47 @@
             Lee los numeros que introducimos en el vector,
             y busca entre todo el vector el numero menor de todos ellos.
             </summary>
+        </member>
+        <member name="F:NavajaSuiza.Tema5.Ejercicio3.NumeroVectorMenor.KTam">
+            <summary>
+            Constante que sera el tamaño del vector
+            </summary>
+        </member>
+        <member name="F:NavajaSuiza.Tema5.Ejercicio3.NumeroVectorMenor.vector">
+            <summary>
+            Inicializacion del vector con el tamaño dado 
+            en la constante KTam
+            </summary>
+        </member>
+        <member name="M:NavajaSuiza.Tema5.Ejercicio3.NumeroVectorMenor.FLeerVector(System.Int32[])">
+            <summary>
+            Leemos el vector introduciendo los
+            numeros
+            </summary>
+            <param name="vector">Numeros que van en el vector.</param>
+        </member>
+        <member name="M:NavajaSuiza.Tema5.Ejercicio3.NumeroVectorMenor.BLeer_Click(System.Object,System.EventArgs)">
+            <summary>
+            Cada vez que hacemos "click" introducimos un 
+            numero en el vector
+            </summary>
+            <param name="sender">La fuente del evento.</param>
+            <param name="e">El <see cref="T:System.EventArgs"/> instancia que contiene los datos del evento.</param>
+        </member>
+        <member name="M:NavajaSuiza.Tema5.Ejercicio3.NumeroVectorMenor.BComprobar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Boton para mostrar el numero menor del vector.
+            </summary>
+            <param name="sender">La fuente del evento.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/>instancia que contiene los datos del evento.</param>
+        </member>
+        <member name="M:NavajaSuiza.Tema5.Ejercicio3.NumeroVectorMenor.ComprobarTextBox(System.Object,System.EventArgs)">
+            <summary>
+            Comprobamos que lo que introducimos en el textbox son numeros
+            enteros y no dobles ni letras ni caracteres extraños.
+            </summary>
+            <param name="sender">El sender.</param>
+            <param name="e">El <see cref="T:System.EventArgs"/>instancia que contiene los datos del evento.</param>
         </member>
         <member name="F:NavajaSuiza.Tema5.Ejercicio3.NumeroVectorMenor.components">
             <summary>

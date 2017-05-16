@@ -13,3 +13,19 @@ C:\Users\Carlos\Desktop\Mis Cosas\DAW\Entornos de Desarrollo\3evaluacion\Proyect
 C:\Users\Carlos\Desktop\Mis Cosas\DAW\Entornos de Desarrollo\3evaluacion\Proyecto_NavajaSuiza\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Form1.resources
 C:\Users\Carlos\Desktop\Mis Cosas\DAW\Entornos de Desarrollo\3evaluacion\Proyecto_NavajaSuiza\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Tema4.Ejercicio13.CalcularBaseExponente.resources
 C:\Users\Carlos\Desktop\Mis Cosas\DAW\Entornos de Desarrollo\3evaluacion\Proyecto_NavajaSuiza\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Tema4.Ejercicio4.ConvertirPtsEuros.resources
+C:\Users\yo\Desktop\Trabajos\Proyecto\NavajaSuiza\NavajaSuiza\bin\Debug\NavajaSuiza.exe.config
+C:\Users\yo\Desktop\Trabajos\Proyecto\NavajaSuiza\NavajaSuiza\bin\Debug\NavajaSuiza.XML
+C:\Users\yo\Desktop\Trabajos\Proyecto\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.exe
+C:\Users\yo\Desktop\Trabajos\Proyecto\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.pdb
+C:\Users\yo\Desktop\Trabajos\Proyecto\NavajaSuiza\NavajaSuiza\bin\Debug\NavajaSuiza.exe
+C:\Users\yo\Desktop\Trabajos\Proyecto\NavajaSuiza\NavajaSuiza\bin\Debug\NavajaSuiza.pdb
+C:\Users\yo\Desktop\Trabajos\Proyecto\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.csprojResolveAssemblyReference.cache
+C:\Users\yo\Desktop\Trabajos\Proyecto\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Form1.resources
+C:\Users\yo\Desktop\Trabajos\Proyecto\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Properties.Resources.resources
+C:\Users\yo\Desktop\Trabajos\Proyecto\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Tema4.Ejercicio13.CalcularBaseExponente.resources
+C:\Users\yo\Desktop\Trabajos\Proyecto\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Tema4.Ejercicio4.ConvertirPtsEuros.resources
+C:\Users\yo\Desktop\Trabajos\Proyecto\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Tema5.Ejercicio2.LecturaNumerosVector.resources
+C:\Users\yo\Desktop\Trabajos\Proyecto\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.Tema5.Ejercicio3.NumeroVectorMenor.resources
+C:\Users\yo\Desktop\Trabajos\Proyecto\NavajaSuiza\NavajaSuiza\obj\Debug\NavajaSuiza.csproj.GenerateResource.Cache
+C:\Users\yo\Desktop\Trabajos\Proyecto\NavajaSuiza\NavajaSuiza\bin\Debug\NavajaSuiza.exe.CodeAnalysisLog.xml
+C:\Users\yo\Desktop\Trabajos\Proyecto\NavajaSuiza\NavajaSuiza\bin\Debug\NavajaSuiza.exe.lastcodeanalysissucceeded
