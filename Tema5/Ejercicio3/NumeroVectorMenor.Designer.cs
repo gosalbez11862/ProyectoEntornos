@@ -65,6 +65,7 @@
             // 
             this.TNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TNumero.Location = new System.Drawing.Point(47, 97);
+            this.TNumero.MaxLength = 9;
             this.TNumero.Name = "TNumero";
             this.TNumero.Size = new System.Drawing.Size(127, 29);
             this.TNumero.TabIndex = 2;
@@ -84,11 +85,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(220, 269);
             this.Controls.Add(this.LResultado);
             this.Controls.Add(this.TNumero);
             this.Controls.Add(this.BComprobar);
             this.Controls.Add(this.BLeer);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "NumeroVectorMenor";
             this.Text = "Ejercicio 3";
             this.ResumeLayout(false);

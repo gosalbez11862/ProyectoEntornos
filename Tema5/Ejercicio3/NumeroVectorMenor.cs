@@ -16,6 +16,11 @@ using System.Windows.Forms;
 
 namespace NavajaSuiza.Tema5.Ejercicio3
 {
+    /// <summary>
+    /// Lee los numeros que introducimos en el vector,
+    /// y busca entre todo el vector el numero menor de todos ellos.
+    /// </summary>
+    /// <seealso cref="System.Windows.Forms.Form" />
     public partial class NumeroVectorMenor : Form
     {
         /// <summary>
@@ -53,25 +58,28 @@ namespace NavajaSuiza.Tema5.Ejercicio3
 
             if (bNumeroCorrecto)
             {
-                if (posicion < vector.Length)
+                if (numero < int.MaxValue)
                 {
-                    vector[posicion] = numero;
-                    TNumero.Text = "";
-                    posicion++;
-                }
-                else
-                {
-                    MessageBox.Show("Vector lleno");
-                }
+                    if (posicion < vector.Length)
+                    {
+                        vector[posicion] = numero;
+                        TNumero.Text = "";
+                        posicion++;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Vector lleno");
+                    }
 
-                LResultado.Text = numero.ToString();
+                    LResultado.Text = numero.ToString();
+                }
+                
             }
             else
             {
                 MessageBox.Show("¡Error! Debe Introducir un Numero");
             }
         }
-
         /// <summary>
         /// Cada vez que hacemos "click" introducimos un 
         /// numero en el vector
@@ -82,7 +90,6 @@ namespace NavajaSuiza.Tema5.Ejercicio3
         {
             FLeerVector(vector);
         }
-
         /// <summary>
         /// Boton para mostrar el numero menor del vector.
         /// </summary>
@@ -95,7 +102,6 @@ namespace NavajaSuiza.Tema5.Ejercicio3
             menor = NumeroMenor.FMenorVector(vector);
             LResultado.Text = menor.ToString();
         }
-
         /// <summary>
         /// Comprobamos que lo que introducimos en el textbox son numeros
         /// enteros y no dobles ni letras ni caracteres extraños.

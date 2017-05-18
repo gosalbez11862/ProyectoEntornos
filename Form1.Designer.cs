@@ -104,15 +104,15 @@
             this.Ejercicio3.UseVisualStyleBackColor = true;
             this.Ejercicio3.Click += new System.EventHandler(this.Ejercicio3_Click);
             // 
-            // NavajaSuiza
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(367, 261);
+            this.ClientSize = new System.Drawing.Size(367, 262);
             this.Controls.Add(this.Tema5);
             this.Controls.Add(this.Tema4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "NavajaSuiza";
+            this.Name = "Form1";
             this.Text = "Navaja Suiza";
             this.Tema4.ResumeLayout(false);
             this.Tema5.ResumeLayout(false);

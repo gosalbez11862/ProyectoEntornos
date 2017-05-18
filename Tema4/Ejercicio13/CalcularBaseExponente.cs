@@ -18,7 +18,7 @@ using System.Globalization;
 namespace NavajaSuiza.Tema4.Ejercicio13
 {
     /// <summary>
-    /// Ejercicio13 clacular de un numero con Base X
+    /// Ejercicio13 calcular de un numero con Base X
     /// y con exponente X
     /// </summary>
     /// <seealso cref="System.Windows.Forms.Form" />

@@ -24,23 +24,23 @@ namespace NavajaSuiza
     /// <para>Los distintos ejercicios son:
     /// <list type="bullet">
     ///     <item>
-    ///         <description>Tema 4 - Ejercicio 4</description>
-    ///         <description>Conversor de Moneda, pasar de Pesetas
+    ///         <description>Tema 4 - Ejercicio 4 </description>
+    ///         <description> Conversor de Moneda, pasar de Pesetas
     ///         a euros y al reves.</description>
     ///     </item>
     ///     <item>
-    ///         <description>Tema 4 - Ejercicio 13</description>
-    ///         <description>calcular la base dada con el 
+    ///         <description>Tema 4 - Ejercicio 13 </description>
+    ///         <description> calcular la base dada con el 
     ///         exponente dado.</description>
     ///     </item>
     ///     <item>
-    ///         <description>Tema 5 - Ejercicio 2</description>
-    ///         <description>Lectura de 10 numeros en un vector
+    ///         <description>Tema 5 - Ejercicio 2 </description>
+    ///         <description> Lectura de 10 numeros en un vector
     ///         y nos devuelve la media de todo el vector.</description>
     ///     </item>
     ///     <item>
-    ///         <description>Tema 5 - Ejercicio 3</description>
-    ///         <description>Lectura de 10 numeros en un vector
+    ///         <description>Tema 5 - Ejercicio 3 </description>
+    ///         <description> Lectura de 10 numeros en un vector
     ///         y nos devuelve el numero menor de todos ellos.</description>
     ///     </item>
     /// </list>
@@ -50,7 +50,7 @@ namespace NavajaSuiza
     {
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="Form1"/> class.
+        /// Inicializa una nueva instancia de la <see cref="Form1"/> clase.
         /// </summary>
         public Form1()
         {

@@ -43,8 +43,15 @@ namespace NavajaSuiza.Tema4.Ejercicio4
 
             if (moneda == true)
             {
-                resultado = PtsEuros.FConversorpta(euro);
-                TPesetas.Text = resultado.ToString("2");
+                if (euro > 0)
+                {
+                    resultado = PtsEuros.FConversorpta(euro);
+                    TPesetas.Text = resultado.ToString();
+                }
+                else
+                {
+                    MessageBox.Show("Debes introducir un numero positivo");
+                }
             }
             else
             {
@@ -67,8 +74,15 @@ namespace NavajaSuiza.Tema4.Ejercicio4
 
             if (moneda == true)
             {
-                resultado = PtsEuros.FConversoreu(pta);
-                TEuros.Text = resultado.ToString("C2");
+                if (pta > 0)
+                {
+                    resultado = PtsEuros.FConversoreu(pta);
+                    TEuros.Text = resultado.ToString("C2");
+                }
+                else
+                {
+                    MessageBox.Show("Debes introducir un numero positivo");
+                }  
             }
             else
             {

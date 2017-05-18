@@ -10,23 +10,23 @@
             <para>Los distintos ejercicios son:
             <list type="bullet">
                 <item>
-                    <description>Tema 4 - Ejercicio 4</description>
-                    <description>Conversor de Moneda, pasar de Pesetas
+                    <description>Tema 4 - Ejercicio 4 </description>
+                    <description> Conversor de Moneda, pasar de Pesetas
                     a euros y al reves.</description>
                 </item>
                 <item>
-                    <description>Tema 4 - Ejercicio 13</description>
-                    <description>calcular la base dada con el 
+                    <description>Tema 4 - Ejercicio 13 </description>
+                    <description> calcular la base dada con el 
                     exponente dado.</description>
                 </item>
                 <item>
-                    <description>Tema 5 - Ejercicio 2</description>
-                    <description>Lectura de 10 numeros en un vector
+                    <description>Tema 5 - Ejercicio 2 </description>
+                    <description> Lectura de 10 numeros en un vector
                     y nos devuelve la media de todo el vector.</description>
                 </item>
                 <item>
-                    <description>Tema 5 - Ejercicio 3</description>
-                    <description>Lectura de 10 numeros en un vector
+                    <description>Tema 5 - Ejercicio 3 </description>
+                    <description> Lectura de 10 numeros en un vector
                     y nos devuelve el numero menor de todos ellos.</description>
                 </item>
             </list>
@@ -35,7 +35,7 @@
         </member>
         <member name="M:NavajaSuiza.Form1.#ctor">
             <summary>
-            Initializes a new instance of the <see cref="T:NavajaSuiza.Form1"/> class.
+            Inicializa una nueva instancia de la <see cref="T:NavajaSuiza.Form1"/> clase.
             </summary>
         </member>
         <member name="M:NavajaSuiza.Form1.Ejercicio4_Click(System.Object,System.EventArgs)">
@@ -98,7 +98,7 @@
         </member>
         <member name="T:NavajaSuiza.Tema4.Ejercicio13.CalcularBaseExponente">
             <summary>
-            Ejercicio13 clacular de un numero con Base X
+            Ejercicio13 calcular de un numero con Base X
             y con exponente X
             </summary>
             <seealso cref="T:System.Windows.Forms.Form" />
@@ -318,6 +318,11 @@
             <returns>Devuelve el numero menor del vector</returns>
         </member>
         <member name="T:NavajaSuiza.Tema5.Ejercicio3.NumeroVectorMenor">
+            <summary>
+            Lee los numeros que introducimos en el vector,
+            y busca entre todo el vector el numero menor de todos ellos.
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
             <summary>
             	Introducir 10 numeros en un vector 
             	y leer todos ellos y sacar el menor de todos ellos

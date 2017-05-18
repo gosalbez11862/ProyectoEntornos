@@ -58,16 +58,24 @@ namespace NavajaSuiza.Tema5.Ejercicio2
 
             if (bNumeroCorrecto)
             {
-                if (posicion < vector.Length)
+                if (true)
                 {
-                    vector[posicion] = numero;
-                    TNumeros.Text = "";
-                    posicion++;
+                    if (posicion < vector.Length)
+                    {
+                        vector[posicion] = numero;
+                        TNumeros.Text = "";
+                        posicion++;
+                    }
+                    else
+                    {
+                        LResultado.Text = "Vector lleno";
+                    }
                 }
                 else
                 {
-                    LResultado.Text = "Vector lleno";
+                    LMensaje.Text = "¡Error! El numero tiene que ser menor a " + int.MaxValue;
                 }
+                
             }
             else
             {
