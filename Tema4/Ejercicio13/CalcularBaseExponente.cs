@@ -50,8 +50,14 @@ namespace NavajaSuiza.Tema4.Ejercicio13
 
             if (cNumero == true && cExponente == true)
             {
-                resultado = baseExponente.Potencia(numero, exponente);
-                LResultado.Text = resultado.ToString("E3", CultureInfo.CreateSpecificCulture("es-ES"));
+                if (numero > -1 && exponente > -1)
+                {
+                    resultado = baseExponente.Potencia(numero, exponente);
+                    LResultado.Text = resultado.ToString("F", CultureInfo.CreateSpecificCulture("es-ES"));
+                }
+                else
+                    TResultado.Text = "Introducir un numero positivo";
+                
             }
             else
                 MessageBox.Show("Introducir un numero");

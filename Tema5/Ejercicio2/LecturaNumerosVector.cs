@@ -34,6 +34,11 @@ namespace NavajaSuiza.Tema5.Ejercicio2
         LecturaVector CLV = new LecturaVector();
 
         /// <summary>
+        /// inicializacion de la posicion de recoger los datos del vector
+        /// </summary>
+        int posicion = 0;
+
+        /// <summary>
         /// Constante para limitar el vector
         /// </summary>
         const int KTam = 10;
@@ -50,7 +55,6 @@ namespace NavajaSuiza.Tema5.Ejercicio2
         /// <param name="vector">Numeros que van en el vector.</param>
         public void FLeerVector(int[] vector)
         {
-            int posicion = 0;
             bool bNumeroCorrecto;
             int numero;
 
@@ -58,24 +62,18 @@ namespace NavajaSuiza.Tema5.Ejercicio2
 
             if (bNumeroCorrecto)
             {
-                if (true)
+                if (posicion < vector.Length)
                 {
-                    if (posicion < vector.Length)
-                    {
-                        vector[posicion] = numero;
-                        TNumeros.Text = "";
-                        posicion++;
-                    }
-                    else
-                    {
-                        LResultado.Text = "Vector lleno";
-                    }
+                    vector[posicion] = numero;
+                    TNumeros.Text = "";
+                    posicion++;
+
+                    LContador.Text = posicion.ToString();
                 }
                 else
                 {
-                    LMensaje.Text = "¡Error! El numero tiene que ser menor a " + int.MaxValue;
+                    TNumeros.Enabled = false;
                 }
-                
             }
             else
             {

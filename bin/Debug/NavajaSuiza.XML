@@ -272,6 +272,11 @@
             Inicializamos la clase LecturaVector
             </summary>
         </member>
+        <member name="F:NavajaSuiza.Tema5.Ejercicio2.LecturaNumerosVector.posicion">
+            <summary>
+            inicializacion de la posicion de recoger los datos del vector
+            </summary>
+        </member>
         <member name="F:NavajaSuiza.Tema5.Ejercicio2.LecturaNumerosVector.KTam">
             <summary>
             Constante para limitar el vector
@@ -357,6 +362,11 @@
         <member name="F:NavajaSuiza.Tema5.Ejercicio3.NumeroVectorMenor.KTam">
             <summary>
             Constante que sera el tamaño del vector
+            </summary>
+        </member>
+        <member name="F:NavajaSuiza.Tema5.Ejercicio3.NumeroVectorMenor.posicion">
+            <summary>
+            inicializacion de la posicion de recoger los datos del vector
             </summary>
         </member>
         <member name="F:NavajaSuiza.Tema5.Ejercicio3.NumeroVectorMenor.vector">

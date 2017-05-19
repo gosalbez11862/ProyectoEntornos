@@ -36,6 +36,9 @@ namespace NavajaSuiza.Tema5.Ejercicio3
         /// Constante que sera el tamaño del vector
         /// </summary>
         const int KTam = 10;
+        /// <summary>
+        /// inicializacion de la posicion de recoger los datos del vector
+        /// </summary>
         int posicion = 0;
 
         /// <summary>
@@ -68,7 +71,7 @@ namespace NavajaSuiza.Tema5.Ejercicio3
                     }
                     else
                     {
-                        MessageBox.Show("Vector lleno");
+                        TNumero.Enabled = false;
                     }
 
                     LResultado.Text = numero.ToString("D");

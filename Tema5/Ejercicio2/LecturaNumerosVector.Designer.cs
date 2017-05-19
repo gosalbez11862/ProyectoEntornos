@@ -39,6 +39,7 @@
             this.BMostrar = new System.Windows.Forms.Button();
             this.LResultado = new System.Windows.Forms.Label();
             this.LMensaje = new System.Windows.Forms.Label();
+            this.LContador = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -103,11 +104,21 @@
             this.LMensaje.TabIndex = 5;
             this.LMensaje.Text = "El resultado es: ";
             // 
+            // LContador
+            // 
+            this.LContador.AutoSize = true;
+            this.LContador.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LContador.Location = new System.Drawing.Point(13, 116);
+            this.LContador.Name = "LContador";
+            this.LContador.Size = new System.Drawing.Size(0, 24);
+            this.LContador.TabIndex = 6;
+            // 
             // LecturaNumerosVector
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(347, 159);
+            this.Controls.Add(this.LContador);
             this.Controls.Add(this.LMensaje);
             this.Controls.Add(this.LResultado);
             this.Controls.Add(this.BMostrar);
@@ -130,5 +141,6 @@
         private System.Windows.Forms.Button BMostrar;
         private System.Windows.Forms.Label LResultado;
         private System.Windows.Forms.Label LMensaje;
+        private System.Windows.Forms.Label LContador;
     }
 }

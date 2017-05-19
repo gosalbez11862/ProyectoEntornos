@@ -50,11 +50,15 @@ namespace NavajaSuiza.Tema4.Ejercicio4
                 else
                 {
                     MessageBox.Show("Debes introducir un numero positivo");
+                    TPesetas.Text = "";
+                    TEuros.Text = "";
                 }
             }
             else
             {
-                MessageBox.Show("Introducir un número.");
+                MessageBox.Show("Introducir un número en la casilla de Pesetas.");
+                TPesetas.Text = "";
+                TEuros.Text = "";
             }
             TEuros.Text = "";
         }
@@ -85,12 +89,16 @@ namespace NavajaSuiza.Tema4.Ejercicio4
                 }
                 else
                 {
-                    MessageBox.Show("Debes introducir un numero positivo");
+                    MessageBox.Show("Debes introducir un numero positivo o superior a 0");
+                    TPesetas.Text = "";
+                    TEuros.Text = "";
                 }
             }
             else
             {
-                MessageBox.Show("Introducir un número.");
+                MessageBox.Show("Introducir un número en la casilla de Euros.");
+                TPesetas.Text = "";
+                TEuros.Text = "";
             }
             TPesetas.Text = "";
         }
