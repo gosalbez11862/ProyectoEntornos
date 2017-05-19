@@ -28,13 +28,12 @@ namespace NavajaSuiza.Tema4.Ejercicio4
         {
             InitializeComponent();
         }
-
         /// <summary>
-        /// Boton para covertir los euros a pesetas.
+        /// comprueba si el numero introducido es correcto
+        /// y si lo es lo manda a la funcion <see cref="PtsEuros.FConversorpta"/>
+        /// para hacer la conversion
         /// </summary>
-        /// <param name="sender">La fuente del evento.</param>
-        /// <param name="e">El <see cref="EventArgs"/> Ejemplo que contiene los datos del evento.</param>
-        private void BPesetas_Click(object sender, EventArgs e)
+        public void ComprobarPesetas()
         {
             double euro, resultado;
             bool moneda = false;
@@ -57,15 +56,20 @@ namespace NavajaSuiza.Tema4.Ejercicio4
             {
                 MessageBox.Show("Introducir un número.");
             }
-            TEuros.Text = "";     
+            TEuros.Text = "";
+        }
+
+        public bool ComprobarEuros(double euros)
+        {
+            throw new NotImplementedException();
         }
 
         /// <summary>
-        /// Boton para covertir los pesetas a euros.
+        /// comprueba si el numero introducido es correcto
+        /// y si lo es lo manda a la funcion <see cref="PtsEuros.FConversoreu"/>
+        /// para hacer la conversion
         /// </summary>
-        /// <param name="sender">La fuente del evento.</param>
-        /// <param name="e">El <see cref="EventArgs"/> Ejemplo que contiene los datos del evento.</param>
-        private void BEuros_Click(object sender, EventArgs e)
+        public void ComprobarEuros()
         {
             double pta, resultado;
             bool moneda = false;
@@ -82,13 +86,33 @@ namespace NavajaSuiza.Tema4.Ejercicio4
                 else
                 {
                     MessageBox.Show("Debes introducir un numero positivo");
-                }  
+                }
             }
             else
             {
                 MessageBox.Show("Introducir un número.");
             }
             TPesetas.Text = "";
+        }
+
+        /// <summary>
+        /// Boton para covertir los euros a pesetas.
+        /// </summary>
+        /// <param name="sender">La fuente del evento.</param>
+        /// <param name="e">El <see cref="EventArgs"/> Ejemplo que contiene los datos del evento.</param>
+        private void BPesetas_Click(object sender, EventArgs e)
+        {
+            ComprobarPesetas();   
+        }
+
+        /// <summary>
+        /// Boton para covertir los pesetas a euros.
+        /// </summary>
+        /// <param name="sender">La fuente del evento.</param>
+        /// <param name="e">El <see cref="EventArgs"/> Ejemplo que contiene los datos del evento.</param>
+        private void BEuros_Click(object sender, EventArgs e)
+        {
+            ComprobarEuros();
         }
 
         /// <summary>
@@ -111,6 +135,11 @@ namespace NavajaSuiza.Tema4.Ejercicio4
                 BPesetas.Enabled = false;
                 BEuros.Enabled = false;
             }
+        }
+
+        public bool ComprobarPesetas(double pesetas)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -48,7 +48,7 @@ namespace NavajaSuiza.Tema5.Ejercicio2
         /// numeros
         /// </summary>
         /// <param name="vector">Numeros que van en el vector.</param>
-        void FLeerVector(int[] vector)
+        public void FLeerVector(int[] vector)
         {
             int posicion = 0;
             bool bNumeroCorrecto;
@@ -136,6 +136,11 @@ namespace NavajaSuiza.Tema5.Ejercicio2
         private void LecturaNumerosVector_Load(object sender, EventArgs e)
         {
 
+        }
+
+        public bool FLeerVector(int vector)
+        {
+            throw new NotImplementedException();
         }
     }
 }

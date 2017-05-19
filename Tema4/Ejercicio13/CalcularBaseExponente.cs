@@ -32,14 +32,11 @@ namespace NavajaSuiza.Tema4.Ejercicio13
         {
             InitializeComponent();
         }
-
         /// <summary>
-        /// Boton para calcular el resultado de
-        /// calcular la base con el exponente.
+        /// Comprobar que los numeros que entran son los correctos
+        /// y pasarlos para calcular el resultado.
         /// </summary>
-        /// <param name="sender">La fuente del evento.</param>
-        /// <param name="e">El <see cref="EventArgs"/> Ejemplo que contiene los datos del evento.</param>
-        private void BCalcular_Click(object sender, EventArgs e)
+        public void CalculaBaseExponente()
         {
             ClassBaseExponente baseExponente = new ClassBaseExponente();
 
@@ -53,11 +50,21 @@ namespace NavajaSuiza.Tema4.Ejercicio13
 
             if (cNumero == true && cExponente == true)
             {
-                resultado =baseExponente.Potencia(numero, exponente);
-                LResultado.Text = resultado.ToString(CultureInfo.CurrentCulture);
+                resultado = baseExponente.Potencia(numero, exponente);
+                LResultado.Text = resultado.ToString("E3", CultureInfo.CreateSpecificCulture("es-ES"));
             }
             else
                 MessageBox.Show("Introducir un numero");
+        }
+        /// <summary>
+        /// Boton para calcular el resultado de
+        /// calcular la base con el exponente.
+        /// </summary>
+        /// <param name="sender">La fuente del evento.</param>
+        /// <param name="e">El <see cref="EventArgs"/> Ejemplo que contiene los datos del evento.</param>
+        private void BCalcular_Click(object sender, EventArgs e)
+        {
+            CalculaBaseExponente();
         }
 
         /// <summary>
@@ -78,6 +85,11 @@ namespace NavajaSuiza.Tema4.Ejercicio13
             {
                 BCalcular.Enabled = false;
             }
+        }
+
+        public bool CalculaBaseExponente(double exponente)
+        {
+            throw new NotImplementedException();
         }
     }
 }

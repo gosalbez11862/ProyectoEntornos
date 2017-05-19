@@ -49,7 +49,7 @@ namespace NavajaSuiza.Tema5.Ejercicio3
         /// numeros
         /// </summary>
         /// <param name="vector">Numeros que van en el vector.</param>
-        void FLeerVector(int[] vector)
+        public void FLeerVector(int[] vector)
         {
             bool bNumeroCorrecto;
             int numero;
@@ -71,7 +71,7 @@ namespace NavajaSuiza.Tema5.Ejercicio3
                         MessageBox.Show("Vector lleno");
                     }
 
-                    LResultado.Text = numero.ToString();
+                    LResultado.Text = numero.ToString("D");
                 }
                 
             }
@@ -100,7 +100,7 @@ namespace NavajaSuiza.Tema5.Ejercicio3
             int menor;
 
             menor = NumeroMenor.FMenorVector(vector);
-            LResultado.Text = menor.ToString();
+            LResultado.Text = menor.ToString("D");
         }
         /// <summary>
         /// Comprobamos que lo que introducimos en el textbox son numeros
@@ -121,6 +121,11 @@ namespace NavajaSuiza.Tema5.Ejercicio3
                 BLeer.Enabled = false;
 
             }
+        }
+
+        public bool FLeerVector(int vector)
+        {
+            throw new NotImplementedException();
         }
     }
 }

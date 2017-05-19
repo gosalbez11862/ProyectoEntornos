@@ -53,7 +53,7 @@
             // BComprobar
             // 
             this.BComprobar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BComprobar.Location = new System.Drawing.Point(47, 162);
+            this.BComprobar.Location = new System.Drawing.Point(47, 149);
             this.BComprobar.Name = "BComprobar";
             this.BComprobar.Size = new System.Drawing.Size(127, 42);
             this.BComprobar.TabIndex = 1;
@@ -76,7 +76,7 @@
             // 
             this.LResultado.AutoSize = true;
             this.LResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LResultado.Location = new System.Drawing.Point(12, 236);
+            this.LResultado.Location = new System.Drawing.Point(12, 209);
             this.LResultado.Name = "LResultado";
             this.LResultado.Size = new System.Drawing.Size(0, 24);
             this.LResultado.TabIndex = 3;
@@ -86,7 +86,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(220, 269);
+            this.ClientSize = new System.Drawing.Size(220, 258);
             this.Controls.Add(this.LResultado);
             this.Controls.Add(this.TNumero);
             this.Controls.Add(this.BComprobar);

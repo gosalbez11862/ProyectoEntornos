@@ -37,12 +37,13 @@
             this.TBase = new System.Windows.Forms.TextBox();
             this.TExponente = new System.Windows.Forms.TextBox();
             this.LResultado = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BCalcular
             // 
             this.BCalcular.Enabled = false;
-            this.BCalcular.Location = new System.Drawing.Point(170, 138);
+            this.BCalcular.Location = new System.Drawing.Point(228, 20);
             this.BCalcular.Name = "BCalcular";
             this.BCalcular.Size = new System.Drawing.Size(100, 36);
             this.BCalcular.TabIndex = 0;
@@ -70,7 +71,8 @@
             // 
             // TBase
             // 
-            this.TBase.Location = new System.Drawing.Point(170, 23);
+            this.TBase.Location = new System.Drawing.Point(106, 23);
+            this.TBase.MaxLength = 7;
             this.TBase.Name = "TBase";
             this.TBase.Size = new System.Drawing.Size(100, 29);
             this.TBase.TabIndex = 3;
@@ -78,7 +80,8 @@
             // 
             // TExponente
             // 
-            this.TExponente.Location = new System.Drawing.Point(170, 77);
+            this.TExponente.Location = new System.Drawing.Point(157, 77);
+            this.TExponente.MaxLength = 7;
             this.TExponente.Name = "TExponente";
             this.TExponente.Size = new System.Drawing.Size(100, 29);
             this.TExponente.TabIndex = 4;
@@ -87,16 +90,26 @@
             // LResultado
             // 
             this.LResultado.AutoSize = true;
-            this.LResultado.Location = new System.Drawing.Point(40, 144);
+            this.LResultado.Location = new System.Drawing.Point(186, 138);
             this.LResultado.Name = "LResultado";
             this.LResultado.Size = new System.Drawing.Size(0, 24);
             this.LResultado.TabIndex = 5;
             // 
-            // Ejercicio13
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(38, 138);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(139, 24);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "El resultado es:";
+            // 
+            // CalcularBaseExponente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(340, 206);
+            this.ClientSize = new System.Drawing.Size(340, 182);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.LResultado);
             this.Controls.Add(this.TExponente);
             this.Controls.Add(this.TBase);
@@ -105,7 +118,9 @@
             this.Controls.Add(this.BCalcular);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(6);
-            this.Name = "Ejercicio13";
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "CalcularBaseExponente";
             this.Text = "Ejercicio 13";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -120,5 +135,6 @@
         private System.Windows.Forms.TextBox TBase;
         private System.Windows.Forms.TextBox TExponente;
         private System.Windows.Forms.Label LResultado;
+        private System.Windows.Forms.Label label3;
     }
 }

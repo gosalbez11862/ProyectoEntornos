@@ -16,7 +16,7 @@ namespace NavajaSuiza.Tema4.Ejercicio4
     /// <summary>
     /// Clase de ConvertirPtsEuros
     /// </summary>
-    class PtsEuros
+    public class PtsEuros
     {
         const double Kconversor = 166.38;
 
