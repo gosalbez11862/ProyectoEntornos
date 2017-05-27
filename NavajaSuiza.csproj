@@ -50,7 +50,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>NavajaSuiza.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
@@ -129,7 +130,8 @@
     <EmbeddedResource Include="Tema5\Ejercicio3\NumeroVectorMenor.resx">
       <DependentUpon>NumeroVectorMenor.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="NavajaSuiza.snk" />
+    <None Include="Documentacion\Documentacion_NavajaSuiza_CarlosGosalbez.pdf" />
+    <None Include="Documentacion\HojasEstilo_CarlosGosalbez.pdf" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

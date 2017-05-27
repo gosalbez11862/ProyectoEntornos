@@ -36,19 +36,19 @@ namespace NavajaSuiza.Tema4.Ejercicio13
         /// Comprobar que los numeros que entran son los correctos
         /// y pasarlos para calcular el resultado.
         /// </summary>
-        public void CalculaBaseExponente()
+        public void calculaBasesExponentes()
         {
             ClassBaseExponente baseExponente = new ClassBaseExponente();
 
             double numero, exponente, resultado;
-            bool cNumero, cExponente;
-            cNumero = false;
-            cExponente = false;
+            bool bNumero, bExponente;
+            bNumero = false;
+            bExponente = false;
 
-            cNumero = double.TryParse(TBase.Text, out numero);
-            cExponente = double.TryParse(TExponente.Text, out exponente);
+            bNumero = double.TryParse(TBase.Text, out numero);
+            bExponente = double.TryParse(TExponente.Text, out exponente);
 
-            if (cNumero == true && cExponente == true)
+            if (bNumero == true && bExponente == true)
             {
                 if (numero > -1 && exponente > -1)
                 {
@@ -56,7 +56,7 @@ namespace NavajaSuiza.Tema4.Ejercicio13
                     LResultado.Text = resultado.ToString("F", CultureInfo.CreateSpecificCulture("es-ES"));
                 }
                 else
-                    TResultado.Text = "Introducir un numero positivo";
+                    LResultado1.Text = "Introducir un numero positivo";
                 
             }
             else
@@ -70,7 +70,7 @@ namespace NavajaSuiza.Tema4.Ejercicio13
         /// <param name="e">El <see cref="EventArgs"/> Ejemplo que contiene los datos del evento.</param>
         private void BCalcular_Click(object sender, EventArgs e)
         {
-            CalculaBaseExponente();
+            calculaBasesExponentes();
         }
 
         /// <summary>

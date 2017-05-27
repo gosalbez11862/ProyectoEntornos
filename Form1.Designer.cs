@@ -108,7 +108,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(367, 262);
+            this.ClientSize = new System.Drawing.Size(369, 262);
             this.Controls.Add(this.Tema5);
             this.Controls.Add(this.Tema4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;

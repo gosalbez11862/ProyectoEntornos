@@ -37,7 +37,7 @@
             this.TBase = new System.Windows.Forms.TextBox();
             this.TExponente = new System.Windows.Forms.TextBox();
             this.LResultado = new System.Windows.Forms.Label();
-            this.TResultado = new System.Windows.Forms.Label();
+            this.LResultado1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BCalcular
@@ -95,21 +95,21 @@
             this.LResultado.Size = new System.Drawing.Size(0, 24);
             this.LResultado.TabIndex = 5;
             // 
-            // TResultado
+            // LResultado1
             // 
-            this.TResultado.AutoSize = true;
-            this.TResultado.Location = new System.Drawing.Point(38, 138);
-            this.TResultado.Name = "TResultado";
-            this.TResultado.Size = new System.Drawing.Size(139, 24);
-            this.TResultado.TabIndex = 6;
-            this.TResultado.Text = "El resultado es:";
+            this.LResultado1.AutoSize = true;
+            this.LResultado1.Location = new System.Drawing.Point(38, 138);
+            this.LResultado1.Name = "LResultado1";
+            this.LResultado1.Size = new System.Drawing.Size(139, 24);
+            this.LResultado1.TabIndex = 6;
+            this.LResultado1.Text = "El resultado es:";
             // 
             // CalcularBaseExponente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(340, 182);
-            this.Controls.Add(this.TResultado);
+            this.Controls.Add(this.LResultado1);
             this.Controls.Add(this.LResultado);
             this.Controls.Add(this.TExponente);
             this.Controls.Add(this.TBase);
@@ -135,6 +135,6 @@
         private System.Windows.Forms.TextBox TBase;
         private System.Windows.Forms.TextBox TExponente;
         private System.Windows.Forms.Label LResultado;
-        private System.Windows.Forms.Label TResultado;
+        private System.Windows.Forms.Label LResultado1;
     }
 }
